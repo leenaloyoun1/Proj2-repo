@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+# Editor and testing files
+.vscode/
+.pytest_cache/

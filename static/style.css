@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+
+    background:
+    linear-gradient(
+        135deg,
+        #eef4ff,
+        #f8faff
+    );
+
+    min-height: 100vh;
+
+    padding: 40px;
+}
+
+.container {
+    max-width: 1100px;
+
+    margin: auto;
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow:
+    0 10px 30px rgba(
+        0,
+        0,
+        0,
+        0.08
+    );
+}
+
+h1 {
+    text-align: center;
+
+    color: #2563eb;
+
+    margin-bottom: 10px;
+
+    font-size: 2.2rem;
+}
+
+.description {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+
+    min-height: 150px;
+
+    padding: 15px;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+
+    transform: translateY(-2px);
+}
+
+.section {
+    margin-top: 35px;
+}
+
+.section h2 {
+    color: #1e3a8a;
+
+    margin-bottom: 15px;
+
+    border-bottom: 2px solid #e8eefc;
+
+    padding-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.smart-plan {
+    background: #f5f9ff;
+
+    border-left: 5px solid #2563eb;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+.priority-high {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.priority-medium {
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+.priority-low {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.task-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.badge {
+    background: #2563eb;
+
+    color: white;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.priority-high {
+    background: #dc2626;
+}
+
+.priority-medium {
+    background: #f59e0b;
+}
+
+.priority-low {
+    background: #16a34a;
+}

@@ -1,0 +1,12 @@
+This week I need to complete my database assignment and submit it before
+Thursday at 11:59 PM. I also need to study Python chapters three and four
+for my exam next Sunday. I should solve two previous Python exams and review
+the practical Python exercises.
+
+For my practical training, I need to email my supervisor with an update
+about the AI Task Planner project. I also need to prepare questions about
+LangChain, agents, tools, and LangGraph for the next meeting.
+
+After class, I need to buy groceries, clean my room, call the dentist to
+arrange an appointment, organize my project files, and update the README
+before pushing the project to GitHub.
